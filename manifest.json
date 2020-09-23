@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Outlook NoAds",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": ["https://outlook.live.com/*"],
+            "js": ["main.js"]
+        }
+    ]
+}
